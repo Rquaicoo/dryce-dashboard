@@ -1,0 +1,18 @@
+@import "../Colors/Colors.scss";
+
+.btn {
+  padding: 0;
+}
+
+.btn {
+  padding: 10px 25px 10px 20px;
+  outline: none;
+  border: 0;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+.btn:hover{
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
