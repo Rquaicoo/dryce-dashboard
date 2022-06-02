@@ -6,8 +6,10 @@
     background-color: $white;
     width: 90%;
     margin: auto;
+    font-family: $regular-fonts;
     .history-header{
         font-size: 3rem;
+        font-family: $main-header-font;
     }
     #history-table{
         width: 100%;

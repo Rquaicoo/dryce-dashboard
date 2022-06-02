@@ -1,0 +1,149 @@
+.navBar {
+  background-color: #5996f9;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.navBar .nav-menu {
+  margin-top: 25px;
+}
+
+.navBar .nav-menu li {
+  display: inline;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+}
+
+.navBar .nav-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #636363;
+  padding: 20px;
+  margin-bottom: -15px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.navBar .nav-menu li a:hover {
+  color: #eaad12;
+  background-color: #f5e5b6;
+  font-weight: 400;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.admin-details {
+  padding-right: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-details .profile-pic img {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.admin-details .profile-name {
+  margin-left: 10px;
+}
+
+.navBar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.navBar {
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  margin: none;
+  padding: 10px 0;
+  min-height: 20px;
+  font-size: 0.9rem;
+  line-height: 0;
+}
+
+.navBar-container {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.navIcon {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  color: white;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  top: 43px;
+  left: -100%;
+  opacity: 1;
+  padding-top: 30px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.nav-menu.active {
+  background-color: black;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 1;
+  padding: 0;
+}
+/*# sourceMappingURL=Header.css.map */
