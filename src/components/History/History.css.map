@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAWZ;;AAbD,AAGI,aAHS,CAGT,eAAe,CAAA;EACX,SAAS,EAAE,IAAI;CAClB;;AALL,AAQY,aARC,CAMT,cAAc,CACV,EAAE,AACG,UAAW,CAAA,IAAI,EAAC;EACjB,gBAAgB,ECHhB,0BAA0B;CDIzB",
+    "sources": [
+        "History.scss",
+        "../Colors/Colors.scss"
+    ],
+    "names": [],
+    "file": "History.css"
+}

@@ -1,0 +1,19 @@
+@import '../Colors/Colors.scss';
+
+.history-main{
+    padding: 0;
+    margin: 0;
+    backdrop-color: $white;
+    .history-header{
+        font-size: 3rem;
+    }
+    #history-table{
+        background-color: black;
+        tr{
+            &:nth-child(odd){
+                background-color: $lightblue;
+                color: red;
+            }
+        }
+    }
+}

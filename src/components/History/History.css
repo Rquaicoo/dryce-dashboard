@@ -1,0 +1,13 @@
+.history-main {
+  padding: 0;
+  margin: 0;
+}
+
+.history-main .history-header {
+  font-size: 3rem;
+}
+
+.history-main #history-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.777);
+}
+/*# sourceMappingURL=History.css.map */
