@@ -3,16 +3,35 @@
 .history-main{
     padding: 0;
     margin: 0;
-    backdrop-color: $white;
+    background-color: $white;
+    width: 90%;
+    margin: auto;
     .history-header{
         font-size: 3rem;
     }
     #history-table{
-        background-color: black;
+        width: 100%;
+        #table-header{
+            border-bottom: 1px $grey solid;
+            background-color: $white;
+        }
         tr{
             &:nth-child(odd){
-                background-color: $lightblue;
-                color: red;
+                background-color: $lightgrey;
+            }
+            td{
+                padding: 10px;
+            }
+            .cus-name{
+                color: $black;
+                font-weight: bold;
+                .name-description{
+                    color: $secondarytext;
+                    font-size: 1rem;
+                }
+            }
+            th{
+                padding: 10px;
             }
         }
     }
