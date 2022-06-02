@@ -1,0 +1,45 @@
+.history-main {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+.history-main .history-header {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.history-main #history-table {
+  width: 100%;
+}
+
+.history-main #history-table #table-header {
+  border-bottom: 1px #636363 solid;
+  background-color: white;
+}
+
+.history-main #history-table tr:nth-child(odd) {
+  background-color: #efefef;
+}
+
+.history-main #history-table tr td {
+  padding: 10px;
+}
+
+.history-main #history-table tr .cus-name {
+  color: black;
+  font-weight: bold;
+}
+
+.history-main #history-table tr .cus-name .name-description {
+  color: #a2a1a1;
+  font-size: 1rem;
+}
+
+.history-main #history-table tr th {
+  padding: 10px;
+}
+/*# sourceMappingURL=History.css.map */

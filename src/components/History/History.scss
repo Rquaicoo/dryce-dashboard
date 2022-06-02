@@ -1,0 +1,40 @@
+@import '../Colors/Colors.scss';
+
+.history-main{
+    padding: 0;
+    margin: 0;
+    background-color: $white;
+    width: 90%;
+    margin: auto;
+    font-family: $regular-fonts;
+    .history-header{
+        font-size: 3rem;
+        font-family: $main-header-font;
+    }
+    #history-table{
+        width: 100%;
+        #table-header{
+            border-bottom: 1px $grey solid;
+            background-color: $white;
+        }
+        tr{
+            &:nth-child(odd){
+                background-color: $lightgrey;
+            }
+            td{
+                padding: 10px;
+            }
+            .cus-name{
+                color: $black;
+                font-weight: bold;
+                .name-description{
+                    color: $secondarytext;
+                    font-size: 1rem;
+                }
+            }
+            th{
+                padding: 10px;
+            }
+        }
+    }
+}

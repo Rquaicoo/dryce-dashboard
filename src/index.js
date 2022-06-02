@@ -4,6 +4,7 @@ import './index.css';
 import BusinessRegistration from './components/Business-Details/BusinessRegistration';
 import SignInSide from './components/Authentication/SignIn';
 import SignUp from './components/Authentication/SignUp';
+import History from './components/History/History';
 
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
         <Route path="/" element={<SignUp />}/>
         <Route path="/sign-in" element={<SignInSide />}/>
         <Route path="/business-registration" element={<BusinessRegistration />}/>
+        <Route path="/history" element={<History />}/>
         {/* <Route path="*" element={<Header />}/> */}
       </Routes>
     </Router>,
