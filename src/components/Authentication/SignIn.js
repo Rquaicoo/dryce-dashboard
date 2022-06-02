@@ -28,6 +28,7 @@ const sendPayload = (username, password) => {
       .then(res => {
           const token = res.data.token;
           localStorage.setItem('token', token);
+          console.log(token)
           console.log(res.data)
           }
       )
