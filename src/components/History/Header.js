@@ -4,6 +4,9 @@ import './Header.css'
 import {LinkNames} from './Navlinks'
 import profilePic from './profilePic.png'
 
+
+
+
 class Header extends Component{
     // clickState condition variables
   state = {clicked: false}
@@ -23,10 +26,22 @@ class Header extends Component{
                       <i class={this.state.clicked ? "fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
                     </div>
 
-                    <div>
+                    <div id="logo">
                         <h3>DrYce</h3>
                     </div>
 
+
+                    <div className='admin-details'>
+                        <div className='profile-pic'>
+                            <img src={profilePic} width={"55px"} height={"55px"} alt="people washing"></img>
+                        </div>
+                        <div className='profile-name'>
+                            Reujoy E.
+                        </div>
+                    </div>
+                </div>
+
+                    {/*links for menu*/}
                     <div className='buttons'>
                       {/*nav links, imported from Navlinks.js #used Links*/}
                       <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
@@ -39,18 +54,10 @@ class Header extends Component{
                               </li>
                             );
                           })}
-                    </ul>
-                    </div>
+                      </ul>
+                    </div>{/*links for menu END*/}
 
-                    <div className='admin-details'>
-                        <div className='profile-pic'>
-                            <img src={profilePic} width={"55px"} height={"55px"} alt="people washing"></img>
-                        </div>
-                        <div className='profile-name'>
-                            Reujoy E.
-                        </div>
-                    </div>
-                </div>
+
                 </nav>
             </header>
       )

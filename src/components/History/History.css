@@ -22,10 +22,11 @@
 }
 
 .history-main #history-table tr:nth-child(odd) {
-  background-color: #efefef;
+  background-color: #f3f1f1;
 }
 
 .history-main #history-table tr td {
+  font-weight: bold;
   padding: 10px;
 }
 

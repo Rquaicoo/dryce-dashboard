@@ -1,0 +1,73 @@
+.details-form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.details-form .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details-form .user-info .p-info {
+  background-color: #f3f1f1;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.details-form .user-info .h-info {
+  background-color: #f3f1f1;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#history-table {
+  width: 90%;
+  margin: auto;
+}
+
+#history-table #table-header {
+  border-bottom: 1px #636363 solid;
+  background-color: white;
+}
+
+#history-table tr:nth-child(odd) {
+  background-color: #f3f1f1;
+}
+
+#history-table tr td {
+  font-weight: bold;
+  padding: 10px;
+}
+
+#history-table tr .cus-name {
+  color: black;
+  font-weight: bold;
+}
+
+#history-table tr .cus-name .name-description {
+  color: #a2a1a1;
+  font-size: 1rem;
+}
+
+#history-table tr th {
+  padding: 10px;
+}
+
+.btn {
+  background-color: blue;
+}
+
+.btn:hover {
+  border: -2px solid #0f940f;
+  background-color: white;
+  color: #0f940f;
+}
+/*# sourceMappingURL=ODetails.css.map */

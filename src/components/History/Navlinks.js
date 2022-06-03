@@ -1,12 +1,12 @@
 export const LinkNames = [
     {
         name: "Request",
-        url: '#Home',
+        url: '#logo',
         cName: 'navLink',
     },
     {
         name: "Profile",
-        url: '#',
+        url: '#logo',
         cName: 'navLink',
     },
 ]
