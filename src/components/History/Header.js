@@ -2,7 +2,8 @@ import { bgcolor } from '@mui/system'
 import React, {Component, Profiler} from 'react'
 import './Header.css'
 import {LinkNames} from './Navlinks'
-import profilePic from './profilePic.png'
+import profilePic from '../../assets/profile.png'
+import logo from '../../assets/drycelogy.png'
 
 
 
@@ -23,20 +24,20 @@ class Header extends Component{
                     
                     {/*menu bar with js condition==> ? clicked "classMenu" : "bar or X"*/}
                     <div className='navIcon' onClick={this.handleClick}>
-                      <i class={this.state.clicked ? "fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
+                      <i class={this.state.clicked ? "fa-solid fa-xmark" : "fa-solid fa-bars" } style={{color: 'black'}}></i>
                     </div>
 
                     <div id="logo">
-                        <h3>DrYce</h3>
+                        <h3><img src={logo} width={"41px"} height={"41px"} alt="logo" ></img>DrYce</h3>
                     </div>
 
 
                     <div className='admin-details'>
                         <div className='profile-pic'>
-                            <img src={profilePic} width={"55px"} height={"55px"} alt="people washing"></img>
+                            <img src={profilePic} width={"55px"} height={"55px"} alt="profilePic"></img>
                         </div>
                         <div className='profile-name'>
-                            Reujoy E.
+                            Reujoy E. Amissah
                         </div>
                     </div>
                 </div>
