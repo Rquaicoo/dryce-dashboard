@@ -5,6 +5,7 @@ import BusinessRegistration from './components/Business-Details/BusinessRegistra
 import SignInSide from './components/Authentication/SignIn';
 import SignUp from './components/Authentication/SignUp';
 import History from './components/History/History';
+import Odetails from './components/OrderDetails/Odetails';
 
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="/sign-in" element={<SignInSide />}/>
         <Route path="/business-registration" element={<BusinessRegistration />}/>
         <Route path="/history" element={<History />}/>
+        <Route path="/orderdetails" element={<Odetails />}/>
         {/* <Route path="*" element={<Header />}/> */}
       </Routes>
     </Router>,

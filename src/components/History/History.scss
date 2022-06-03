@@ -18,10 +18,12 @@
             background-color: $white;
         }
         tr{
+            
             &:nth-child(odd){
                 background-color: $lightgrey;
             }
             td{
+                font-weight: bold;
                 padding: 10px;
             }
             .cus-name{

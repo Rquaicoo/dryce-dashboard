@@ -1,0 +1,61 @@
+@import '../Colors/Colors.scss';
+
+.details-form{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    .user-info{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .p-info{
+            background-color: $lightgrey;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        .h-info{
+            background-color: $lightgrey;
+            padding: 50px;
+            border-radius: 10px;
+        }
+    }
+}
+
+#history-table{
+    width: 90%;
+    margin: auto;
+    #table-header{
+        border-bottom: 1px $grey solid;
+        background-color: $white;
+    }
+    tr{
+        
+        &:nth-child(odd){
+            background-color: $lightgrey;
+        }
+        td{
+            font-weight: bold;
+            padding: 10px;
+        }
+        .cus-name{
+            color: $black;
+            font-weight: bold;
+            .name-description{
+                color: $secondarytext;
+                font-size: 1rem;
+            }
+        }
+        th{
+            padding: 10px;
+        }
+    }
+}
+
+.btn{
+    background-color: blue;
+    &:hover{
+        border: -2px solid $green;
+        background-color: $white;
+        color: $green;
+    }
+}
