@@ -14,6 +14,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
 }
 
 .details-form .user-info .p-info {
@@ -22,10 +23,62 @@
   border-radius: 10px;
 }
 
+.details-form .user-info .p-info .info-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #636363;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.details-form .user-info .p-info .main-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.details-form .user-info .p-info .secondary-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #636363;
+}
+
 .details-form .user-info .h-info {
   background-color: #f3f1f1;
   padding: 50px;
   border-radius: 10px;
+}
+
+.details-form .user-info .h-info .info-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #636363;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.details-form .user-info .h-info .main-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.details-form .user-info .h-info .secondary-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #636363;
+}
+
+.details-form .user-info .p-status .info-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.details-form .user-info .p-status .btn:hover {
+  border: 2px solid #0f940f;
+  background-color: white;
+  color: #0f940f;
 }
 
 #history-table {
@@ -61,13 +114,15 @@
   padding: 10px;
 }
 
-.btn {
-  background-color: blue;
+.pricing {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
 }
 
-.btn:hover {
-  border: -2px solid #0f940f;
-  background-color: white;
-  color: #0f940f;
+.pricing .price-header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: black;
 }
 /*# sourceMappingURL=ODetails.css.map */
